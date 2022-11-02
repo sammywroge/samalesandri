@@ -6,6 +6,72 @@ body{
 }
 main{
     text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+.entersite{
+    background-image: url(images/entersiteimg.jpeg);
+    background-size: cover;
+    background-position: top 20% left;
+}
+.entersite nav{
+    background-color: transparent;
+}
+.entersite nav a{
+    position: fixed;
+    background-color: #88a9c360;
+    font-size: 1.125rem;
+}
+.entersite nav a>span{
+    background-color: #88a9c360;
+    padding: 0.75rem 1.25rem;
+}
+.entersite nav a:first-child{
+    top: 2rem;
+    left: 2rem;
+}
+.entersite nav a:nth-child(2){
+    top: 2rem;
+    right: 2rem;
+}
+.entersite nav a:nth-child(3){
+    bottom: 2rem;
+    left: 2rem;
+}
+.entersite nav a:nth-child(4){
+    bottom: 2rem;
+    right: 2rem;
+}
+.bio{
+    display: flex;
+    gap: 2rem;
+    padding-top: 2rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.bio p{
+    width: 35%;
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+.bio img{
+    border-radius: 3rem;
+    height: 65vh;
+}
+.shows{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.shows p{
+    margin-bottom: .5rem;
+}
+.shows h2{
+    font-size: 3rem;
 }
 h1{
     text-align: center;
@@ -20,6 +86,46 @@ nav{
 }
 nav>div>div{
     display: none;
+    position: absolute;
+    background-color: #88a9c3;
+    width: 8.5rem;
+    text-align: center;
+    left: -1.75rem;
+    top: 100%;
+    padding-top: 0.5rem;
+}
+nav>div>div>div{
+    border: 2px solid #e0e6e9;
+    border-radius: 3px;
+}
+nav>div>div>div:hover{
+    color: #6e9277;
+    border: 1px solid #e0e6e9;
+}
+nav>div>div>div>span{
+    border: 1px solid #e0e6e9;
+    margin: 2px;
+    padding: .25rem .75rem;
+    display: inline-block;
+    border-radius: 3px;
+    background-color: #88a9c3;
+}
+nav>div>div>div>span:hover{
+    color: #6e9277;
+    border: 2px solid #e0e6e9;
+}
+nav>div{
+    position: relative;
+}
+nav>div:hover>div, nav>div>div>div:hover{
+    display: block
+}
+nav>div>div a{
+    border: none;
+    margin: 0.25rem 0;
+}
+nav>div>div a:hover{
+    border: none;
 }
 nav a, .button{
     border: 2px solid #e0e6e9;
@@ -44,6 +150,12 @@ nav a span,.button span{
     border-radius: 3px;
     background-color: #88a9c3;
 }
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 1rem;
+}
 footer div{
     display: flex;
     justify-content: center;
@@ -54,6 +166,82 @@ footer div .icon{
     width: 2rem;
     display: block;
 }
+.signup{
+    background-color: #88a9c3;
+    max-width: 100%;
+    width: 25rem;
+    padding: 1.5rem;
+    margin: auto;
+}
+.signup label{
+    margin-top: .25rem;
+}
+.signup label, .signup input, .signup select{
+    display: block;
+    color: #f3f4e7;
+    font-size: 1rem;
+}
+.signup input, .signup select{
+    border: 1px solid #e0e6e9;
+    margin: 2px;
+    padding: .25rem .75rem;
+    border-radius: 3px;
+    background-color: #88a9c3;
+    width: calc(100% - 1.85rem)
+}
+.signup select{
+    width: calc(100% - .25rem);
+    height: 1.75rem
+}
+.signup .whiteborder{
+    border: 2px solid #e0e6e9;
+    padding: .1rem;
+    display: block;
+    border-radius: 3px;
+    background-color: #88a9c3;
+    color: #f3f4e7;
+}
+.sidebyside{
+    display: flex;
+    gap: .5rem;
+}
+.sidebyside div{
+    width: 50%;
+}
 img{
     max-width: 100%;
+}
+.dates>div{
+    border: 2px solid #e0e6e9;
+    border-radius: 3px;
+    padding: .1rem;
+}
+.dates>div>span{
+    border: 1px solid #e0e6e9;
+    margin: 2px;
+    padding: .25rem .75rem;
+    display: inline-block;
+    border-radius: 3px;
+    background-color: #88a9c3;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    align-items: center;
+}
+.dates p{
+    margin: 0;
+    font-size: .75rem;
+}
+.dates strong{
+    font-size: 1rem;
+}
+.dates{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    align-items: center;
+    justify-items: flex-start;
+    gap: .75rem 0;
+}
+.dates .button span{
+    padding: .77rem .75rem;
+    margin: 2px;
 }
