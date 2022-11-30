@@ -21,6 +21,7 @@ main{
     position: fixed;
     background-color: #88a9c360;
     font-size: 1.125rem;
+    z-index: 1;
 }
 .entersite nav a>span{
     background-color: #88a9c360;
@@ -44,20 +45,68 @@ main{
 }
 .bio{
     display: flex;
-    gap: 2rem;
     padding-top: 2rem;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
 .bio p{
-    width: 35%;
     font-size: 1.25rem;
     line-height: 2rem;
+    padding: 0 1rem;
 }
 .bio img{
     border-radius: 3rem;
-    height: 65vh;
+    width: 90%;
+}
+.slider {
+	width: 1024px;
+	
+}
+
+.slider-wrapper {
+	width: 100%;
+	height: 400px;
+	position: relative;
+}
+
+.slide {
+    left: 5%;
+	position: absolute;
+	width: 90%;
+	height: 100%;
+	opacity: 0;
+	transition: opacity 3s linear;
+}
+
+.slider-wrapper > .slide:first-child {
+	opacity: 1;
+}
+.slide>img{
+    width: 46%;
+    margin: 0 1.5%;
+}
+@media (min-width: 1000px){
+    .bio{
+        flex-wrap: nowrap;
+    }
+    .bio p{
+        width: 35%;
+    }
+    .bio img{
+        width: 75%;
+    }
+    img.slide{
+        height: unset;
+        left: 12.5%;
+    }
+    .slide>img{
+        width: 40%;
+        margin: 0 2%;
+    }
+    .slider {
+        width: 52%;
+    }
 }
 .shows{
     height: 70vh;
@@ -93,6 +142,7 @@ nav>div>div{
     left: -1.75rem;
     top: 100%;
     padding-top: 0.5rem;
+    z-index: 1;
 }
 nav>div>div>div{
     border: 2px solid #e0e6e9;
@@ -135,6 +185,10 @@ nav a, .button{
     background-color: #88a9c3;
     color: #f3f4e7;
 }
+.plus.button, .plus.button span{
+    background-color: #88a9c360;
+    cursor: pointer;
+}
 nav a:hover, .button:hover{
     color: #6e9277;
     border: 1px solid #e0e6e9;
@@ -150,11 +204,44 @@ nav a span,.button span{
     border-radius: 3px;
     background-color: #88a9c3;
 }
+.christmascountdown{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 1rem;
+}
+.christmascountdown p{
+    border: 2px solid #e0e6e9;
+    padding: .1rem;
+    display: inline-block;
+    border-radius: 3px;
+    background-color: #88a9c3;
+    color: #f3f4e7;
+    margin: .5rem;
+}
+.christmascountdown span{
+    border: 1px solid #e0e6e9;
+    margin: 2px;
+    padding: .25rem .75rem;
+    display: inline-block;
+    border-radius: 3px;
+    background-color: #88a9c3;
+}
+.christmascountdown p:hover{
+    color: #6e9277;
+    border: 1px solid #e0e6e9;
+}
+.christmascountdown p:hover span{
+    border: 2px solid #e0e6e9;
+}
+@media (min-width: 1200px){
+    .christmascountdown p{
+        margin: .5rem .18rem;
+    }
+}
 footer{
-    position: fixed;
-    bottom: 0;
-    width: 100%;
     padding-bottom: 1rem;
+    text-align: center;
 }
 footer div{
     display: flex;
@@ -162,16 +249,174 @@ footer div{
     align-items: center;
     gap: .75rem;
 }
+footer div:nth-child(2){
+    justify-content: space-between;
+    border-top: .2rem solid #e0e6e9;
+    margin-top: .5rem;
+}
+.entersite footer{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+.entersite footer>div{
+    justify-content: center;
+    border: none;
+}
+.entersite footer div:nth-child(2)> *{
+    width: unset;
+}
+a{
+    color: #f3f4e7;
+    text-decoration: none;
+}
+a:hover{
+    color: #6e9277;
+}
+footer div:nth-child(2) *{
+    width: 33%;
+}
 footer div .icon{
     width: 2rem;
     display: block;
 }
+.newmusic{
+    font-size: 2.5rem;
+    position: relative;
+    padding-top: 1rem;
+}
+.newmusic h2{
+    margin-top: 0;
+}
+.newmusic img{
+    max-width: 30rem;
+}
+figcaption{
+    font-size: 1.5rem;
+}
+figcaption span{
+    font-size: 1rem;
+}
+.christmasbackground{
+    position: absolute;
+    z-index: -1;
+    opacity: .8;
+    height: 100%;
+    width: 100%;
+}
+.christmasbackground img{
+    width: 4rem;
+    position: absolute;
+}
+.christmasbackground img:first-child{
+    top: 3rem;
+    left: 3rem;
+}
+.christmasbackground img:nth-child(2){
+    bottom: 6rem;
+    right: 6em;
+}
+.christmasbackground img:nth-child(3){
+    bottom: 9rem;
+    right: 9rem;
+}
+.christmasbackground img:nth-child(4){
+    top: 12rem;
+    left: 12rem;
+}
+.christmasbackground img:nth-child(5){
+    top: 15rem;
+    left: 15rem;
+}
+.christmasbackground img:nth-child(6){
+    bottom: 18rem;
+    right: 18rem;
+}
+.christmasbackground img:nth-child(7){
+    bottom: 21rem;
+    right: 21rem;
+}
+.christmasbackground img:nth-child(8){
+    top: 24rem;
+    left: 24rem;
+}
+.gift{
+    background-color: #6e9277;
+    max-width: calc(100% - 7rem);
+    width: 28rem;
+    height: 28rem;
+    padding: 3rem 1.5rem;
+    margin: auto;
+    display: none;
+    position: fixed;
+    top: 10rem;
+    left: 2rem;
+    z-index: 2;
+}
+.gift.show{
+    display: block;
+}
+.gift a{
+    color: #C4232E;
+    display: inline-block;
+    margin: 1rem 0;
+}
+.gift a:hover{
+    color: #f3f4e7;
+}
+.overlay{
+    background-color: #88a9c3c7;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+.overlay.show{
+    display: block;
+}
+@media (min-width:512px){
+    .gift{
+        left: calc(50% - 15.5rem);
+    }
+}
 .signup{
     background-color: #88a9c3;
-    max-width: 100%;
+    max-width: calc(100% - 7rem);
     width: 25rem;
     padding: 1.5rem;
     margin: auto;
+    display: none;
+    position: sticky;
+    top: 2rem;
+    left: 2rem;
+    z-index: 2;
+}
+.exit{
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    cursor: pointer;
+    font-size: 2rem;
+    color: #f3f4e7;
+}
+@media (min-width:512px){
+    .signup{
+        left: calc(50% - 14rem);
+    }
+    .sidebyside{
+        display: flex;
+        gap: .5rem;
+    }
+    .sidebyside div{
+        width: 50%;
+    }
+}
+.signup.show{
+    display: block;
 }
 .signup label{
     margin-top: .25rem;
@@ -189,6 +434,12 @@ footer div .icon{
     background-color: #88a9c3;
     width: calc(100% - 1.85rem)
 }
+.signup input[type=submit]{
+    width: calc(100% - .25rem);
+}
+.signup .clear.foot{
+    margin-top: .5rem;
+}
 .signup select{
     width: calc(100% - .25rem);
     height: 1.75rem
@@ -200,13 +451,6 @@ footer div .icon{
     border-radius: 3px;
     background-color: #88a9c3;
     color: #f3f4e7;
-}
-.sidebyside{
-    display: flex;
-    gap: .5rem;
-}
-.sidebyside div{
-    width: 50%;
 }
 img{
     max-width: 100%;
@@ -224,8 +468,16 @@ img{
     border-radius: 3px;
     background-color: #88a9c3;
     display: grid;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 2fr 5fr;
     align-items: center;
+}
+@media (min-width: 895px){
+    .dates>div>span{
+        grid-template-columns: 1fr 5fr;
+    }
+    .dates{
+        grid-template-columns: 5fr 1fr;
+    }
 }
 .dates p{
     margin: 0;
@@ -236,10 +488,11 @@ img{
 }
 .dates{
     display: grid;
-    grid-template-columns: 5fr 1fr;
+    grid-template-columns: 4fr 1fr;
     align-items: center;
     justify-items: flex-start;
     gap: .75rem 0;
+    margin: 2rem;
 }
 .dates .button span{
     padding: .77rem .75rem;
