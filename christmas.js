@@ -11,6 +11,14 @@ document.addEventListener("DOMContentLoaded", function(){
 		document.querySelector('.gift.six').classList.toggle('show');
 		document.querySelector('.overlay').classList.toggle('show');
 	});
+    document.querySelector('.christmascountdown p:nth-child(7)').addEventListener('click', function(){
+		document.querySelector('.gift.seven').classList.toggle('show');
+		document.querySelector('.overlay').classList.toggle('show');
+	});
+    document.querySelector('.christmascountdown p:nth-child(8)').addEventListener('click', function(){
+		document.querySelector('.gift.eight').classList.toggle('show');
+		document.querySelector('.overlay').classList.toggle('show');
+	});
 	document.querySelector('.exit').addEventListener('click', function(){
 		document.querySelector('.gift').classList.toggle('show');
 		document.querySelector('.overlay').classList.toggle('show');

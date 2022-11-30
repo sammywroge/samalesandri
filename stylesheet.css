@@ -8,6 +8,7 @@ main{
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 5rem;
+    position: relative;
 }
 .entersite{
     background-image: url(images/entersiteimg.jpeg);
@@ -342,17 +343,20 @@ figcaption span{
     left: 24rem;
 }
 .gift{
-    background-color: #6e9277;
+    background-color: #59725f;
     max-width: calc(100% - 7rem);
     width: 28rem;
     height: 28rem;
-    padding: 3rem 1.5rem;
+    padding: 4rem 1.5rem 3rem;
     margin: auto;
     display: none;
-    position: fixed;
-    top: 10rem;
+    position: absolute;
+    top: 3rem;
     left: 2rem;
     z-index: 2;
+}
+.gift.tall{
+    height: 50rem;
 }
 .gift.show{
     display: block;
@@ -497,4 +501,48 @@ img{
 .dates .button span{
     padding: .77rem .75rem;
     margin: 2px;
+}
+.tiktok-embed{
+    margin: auto;
+}
+blockquote.tiktok-embed>iframe{
+    margin: auto;
+    max-height: 100%;
+    width: unset;
+}
+.songs a{
+    border: 2px solid #e0e6e9;
+    padding: .1rem;
+    border-radius: 3px;
+    background-color: #88a9c3;
+    color: #f3f4e7;
+    width: 48%;
+}
+.songs a>span{
+border: 1px solid #e0e6e9;
+margin: 2px;
+display: block;
+padding: .25rem .75rem;
+border-radius: 3px;
+background-color: #88a9c3;
+}
+.songs a:hover{
+    border: 1px solid #e0e6e9; 
+}
+.songs a:hover>span{
+    border: 2px solid #e0e6e9;
+    color: #6e9277;
+}
+.songs{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.songs img{
+    width: 100%;
+}
+@media (min-width: 1000px){
+    .songs a{
+        width: 24%;
+    }
 }
