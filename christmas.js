@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function(){
 		document.querySelector('.overlay').classList.add('show');
 	});
 	document.querySelector('.gift.one .exit').addEventListener('click', function(){
-		document.querySelector('.gift').classList.remove('show');
+		document.querySelector('.gift.one').classList.remove('show');
 		document.querySelector('.overlay').classList.remove('show');
 	});
 	document.querySelector('.gift.five .exit').addEventListener('click', function(){
