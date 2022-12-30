@@ -16,7 +16,7 @@ main{
     }
 }
 .entersite{
-    background-image: url(images/entersiteimg.jpeg);
+    background-image: url(images/entersiteimg.jpg);
     background-size: 200%;
     background-position: top 20% center;
 }
@@ -57,7 +57,7 @@ main{
 }
 @media (min-width: 800px){
     .entersite{
-        background-image: url(images/entersiteimg.jpeg);
+        background-image: url(images/entersiteimg.jpg);
         background-size: cover;
         background-position: top 20% left;
     }
@@ -508,6 +508,7 @@ img{
     border: 2px solid #e0e6e9;
     border-radius: 3px;
     padding: .1rem;
+    width: 100%;
 }
 .dates>div>span{
     border: 1px solid #e0e6e9;
