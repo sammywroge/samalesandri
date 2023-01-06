@@ -92,6 +92,7 @@ main{
     font-size: 1.25rem;
     line-height: 2rem;
     padding: 0 1rem;
+    margin-top: 0;
 }
 .bio img{
     border-radius: 3rem;
@@ -104,7 +105,7 @@ main{
 
 .slider-wrapper {
 	width: 100%;
-	height: 400px;
+	height: 100%;
 	position: relative;
 }
 
@@ -130,6 +131,9 @@ main{
     }
     .slider-wrapper>img{
         margin-left: calc(50% - 300px);
+    }
+    .slider-wrapper {
+        height: 400px;
     }
 }
 @media (min-width: 1000px){
