@@ -239,10 +239,10 @@ nav a, .button{
 }
 nav a:hover, .button:hover{
     color: #6f930f;
-    border: 1px solid #6f930f;
+    border: 1px solid #c8a4d4;
 }
 nav a:hover span,.button:hover span{
-    border: 2px solid #6f930f;
+    border: 2px solid #c8a4d4;
 }
 nav a span,.button span{
     border: 1px solid #c8a4d4;
