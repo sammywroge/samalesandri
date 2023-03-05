@@ -574,6 +574,81 @@ blockquote.tiktok-embed>iframe{
     max-height: 100%;
     width: unset;
 }
+.releases{
+    margin-bottom: .5rem;
+}
+.releases a:hover{
+    color: #6f930f;
+}
+.youtubefeatures{
+    border: 2px solid #c8a4d4;
+    padding: .1rem;
+    border-radius: 3px;
+    background-color: #795695;
+    color: #f3f4e7;
+    width: 90%;
+    position: relative;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4rem;
+    margin-top: .5rem;
+}
+.youtubefeatures>span{
+border: 1px solid #c8a4d4;
+margin: 2px;
+display: block;
+padding: .25rem .75rem;
+border-radius: 3px;
+background-color: #795695;
+}
+.youtubefeatures:hover{
+    border: 1px solid #c8a4d4; 
+}
+.youtubefeatures:hover>span{
+    border: 2px solid #c8a4d4;
+    color: #6f930f;
+}
+.youtubefeatures video{
+    width: 100%;
+}
+@media (min-width: 300px){
+    .youtubefeatures{
+        width: 50%;
+        height: 31.4rem;
+    }
+    .youtubefeatures>span{
+        height: calc(100% - 14.25px);
+    }
+    .youtubefeatures{
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}
+@media (min-width: 600px){
+    .youtubefeatures{
+        width: 44%;
+        height: 31.4rem;
+    }
+}
+@media (min-width: 850px){
+    .youtubefeatures{
+        width: 32%;
+        height: 31.4rem;
+    }
+}
+@media (min-width: 1000px){
+    .youtubefeatures{
+        width: 28.4%;
+        height: 31.4rem;
+    }
+}
+@media (min-width: 1200px){
+    .youtubefeatures{
+        width: 22%;
+        height: 31.4rem;
+    }
+}
 .songs a{
     border: 2px solid #c8a4d4;
     padding: .1rem;
