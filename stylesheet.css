@@ -614,7 +614,7 @@ background-color: #795695;
 }
 @media (min-width: 200px){
     .youtubefeatures{
-        width: 52%;
+        width: 62%;
         height: 31.4rem;
     }
     .youtubefeatures>span{
@@ -625,9 +625,9 @@ background-color: #795695;
         align-items: flex-start;
     }
 }
-@media (min-width: 300px){
+@media (min-width: 400px){
     .youtubefeatures{
-        width: 58%;
+        width: 60%;
         height: 31.4rem;
     }
 }
