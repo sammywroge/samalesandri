@@ -612,9 +612,9 @@ background-color: #795695;
 .youtubefeatures video{
     width: 100%;
 }
-@media (min-width: 160px){
+@media (min-width: 200px){
     .youtubefeatures{
-        width: 54%;
+        width: 66%;
         height: 31.4rem;
     }
     .youtubefeatures>span{
@@ -627,7 +627,7 @@ background-color: #795695;
 }
 @media (min-width: 400px){
     .youtubefeatures{
-        width: 50%;
+        width: 58%;
         height: 31.4rem;
     }
 }
