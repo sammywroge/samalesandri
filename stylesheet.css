@@ -168,9 +168,11 @@ main{
     justify-content: center;
     align-content: center;
     align-items: center;
+    padding-bottom: 12rem;
+    padding-top: 1rem;
 }
 .shows .button{
-    margin-top: 6rem;
+    margin-top: 2rem;
 }
 .shows p{
     margin-bottom: .5rem;
@@ -561,6 +563,7 @@ img{
     justify-items: flex-start;
     gap: .75rem 0;
     margin: 2rem;
+    margin-top: 15rem;
 }
 .dates .button span{
     padding: .77rem .75rem;
