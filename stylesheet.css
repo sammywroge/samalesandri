@@ -168,12 +168,12 @@ main{
     justify-content: center;
     align-content: center;
     align-items: center;
-    padding-bottom: 16rem;
+    padding-bottom: 10rem;
     padding-top: 8rem;
 }
 @media (min-width: 445px){
     .shows{
-        padding-bottom: 8rem;
+        padding-bottom: 6rem;
         padding-top: 1rem;
     }
 }
@@ -569,7 +569,7 @@ img{
     justify-items: flex-start;
     gap: .75rem 0;
     margin: 2rem;
-    margin-top: 8rem;
+    margin-top: 5rem;
 }
 .dates .button span{
     padding: .77rem .75rem;
