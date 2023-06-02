@@ -168,7 +168,7 @@ main{
     justify-content: center;
     align-content: center;
     align-items: center;
-    padding-bottom: 22rem;
+    padding-bottom: 16rem;
     padding-top: 8rem;
 }
 @media (min-width: 445px){
@@ -569,7 +569,7 @@ img{
     justify-items: flex-start;
     gap: .75rem 0;
     margin: 2rem;
-    margin-top: 10rem;
+    margin-top: 8rem;
 }
 .dates .button span{
     padding: .77rem .75rem;
