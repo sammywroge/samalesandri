@@ -569,7 +569,7 @@ img{
     justify-items: flex-start;
     gap: .75rem 0;
     margin: 2rem;
-    margin-top: 15rem;
+    margin-top: 10rem;
 }
 .dates .button span{
     padding: .77rem .75rem;
@@ -585,9 +585,14 @@ blockquote.tiktok-embed>iframe{
 }
 .releases{
     margin-bottom: .5rem;
+    margin-top: 2rem;
 }
 .releases a:hover{
     color: #6f930f;
+}
+.youtubevid{
+    margin-top: 2rem;
+    margin-bottom: -2rem;
 }
 .youtubefeatures{
     border: 2px solid #c8a4d4;
@@ -743,4 +748,74 @@ background-color: #795695;
     background: rgb(121,86,149);
     background: linear-gradient(180deg, rgba(121,86,149,0.8393732492997199) 0%, rgba(121,86,149,0.16710434173669464) 35%, rgba(121,86,149,0) 100%);
     z-index: -1;
+}
+.newsong a{
+    border: 2px solid #c8a4d4;
+    padding: .1rem;
+    border-radius: 3px;
+    background-color: #795695;
+    color: #f3f4e7;
+    width: 90%;
+    position: relative;
+    box-sizing: border-box;
+}
+.newsong a>span{
+border: 1px solid #c8a4d4;
+margin: 2px;
+display: block;
+padding: .25rem .75rem;
+border-radius: 3px;
+background-color: #795695;
+}
+.newsong a:hover{
+    border: 1px solid #c8a4d4; 
+}
+.newsong a:hover>span{
+    border: 2px solid #c8a4d4;
+    color: #6f930f;
+}
+.newsong{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.newsong img{
+    width: 100%;
+}
+@media (min-width: 600px){
+    .newsong a{
+        width: 45%;
+        height: 28rem;
+    }
+    .newsong a>span{
+        height: calc(100% - 14.25px);
+    }
+    .newsong{
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}
+@media (min-width: 850px){
+    .newsong a{
+        height: 32rem;
+    }
+}
+@media (min-width: 1000px){
+    .newsong a{
+        width: 24%;
+        height: 23.5rem;
+    }
+    figcaption span{
+        position: absolute;
+        bottom: 0.25rem;
+        left: calc(50% - 57px);
+    }
+}
+@media (min-width: 1200px){
+    .newsong a{
+        height: 27rem;
+    }
 }
