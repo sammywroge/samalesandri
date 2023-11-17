@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-color: #795695;
+    background-color: #605F47;
     color: #f3f4e7;
     font-family: 'Coustard', serif;
 }
@@ -26,12 +26,12 @@ main{
 }
 .entersite nav a{
     position: fixed;
-    background-color: #7956954d;
+    background-color: #605f4756;
     font-size: 1.125rem;
     z-index: 1;
 }
 .entersite nav a>span{
-    background-color: #7956954d;
+    background-color: #605f4756;
     padding: 0.75rem 1.25rem;
 }
 .entersite nav a:first-child{
@@ -190,7 +190,7 @@ h1{
     text-align: center;
 }
 nav{
-    background-color: #c8a4d4;
+    background-color: #D5B690;
     height: 1rem;
     display: flex;
     justify-content: center;
@@ -200,7 +200,7 @@ nav{
 nav>div>div{
     display: none;
     position: absolute;
-    background-color: #795695;
+    background-color: #605F47;
     width: 8.5rem;
     text-align: center;
     left: -1.75rem;
@@ -209,24 +209,24 @@ nav>div>div{
     z-index: 1;
 }
 nav>div>div>div{
-    border: 2px solid #c8a4d4;
+    border: 2px solid #D5B690;
     border-radius: 3px;
 }
 nav>div>div>div:hover{
-    color: #6f930f;
-    border: 1px solid #c8a4d4;
+    color: #A2A16E;
+    border: 1px solid #D5B690;
 }
 nav>div>div>div>span{
-    border: 1px solid #c8a4d4;
+    border: 1px solid #D5B690;
     margin: 2px;
     padding: .25rem .75rem;
     display: inline-block;
     border-radius: 3px;
-    background-color: #795695;
+    background-color: #605F47;
 }
 nav>div>div>div>span:hover{
-    color: #6f930f;
-    border: 2px solid #c8a4d4;
+    color: #A2A16E;
+    border: 2px solid #D5B690;
 }
 nav>div{
     position: relative;
@@ -242,11 +242,11 @@ nav>div>div a:hover{
     border: none;
 }
 nav a, .button{
-    border: 2px solid #c8a4d4;
+    border: 2px solid #D5B690;
     padding: .1rem;
     display: inline-block;
     border-radius: 3px;
-    background-color: #795695;
+    background-color: #605F47;
     color: #f3f4e7;
 }
 .plus.button, .plus.button span{
@@ -254,19 +254,19 @@ nav a, .button{
     cursor: pointer;
 }
 nav a:hover, .button:hover{
-    color: #6f930f;
-    border: 1px solid #c8a4d4;
+    color: #A2A16E;
+    border: 1px solid #D5B690;
 }
 nav a:hover span,.button:hover span{
-    border: 2px solid #c8a4d4;
+    border: 2px solid #D5B690;
 }
 nav a span,.button span{
-    border: 1px solid #c8a4d4;
+    border: 1px solid #D5B690;
     margin: 2px;
     padding: .25rem .75rem;
     display: inline-block;
     border-radius: 3px;
-    background-color: #795695;
+    background-color: #605F47;
 }
 .christmascountdown{
     display: flex;
@@ -275,29 +275,29 @@ nav a span,.button span{
     padding: 0 1rem;
 }
 .christmascountdown p{
-    border: 2px solid #c8a4d4;
+    border: 2px solid #D5B690;
     padding: .1rem;
     display: inline-block;
     border-radius: 3px;
-    background-color: #795695;
+    background-color: #605F47;
     color: #f3f4e7;
     margin: .5rem;
     cursor: pointer;
 }
 .christmascountdown span{
-    border: 1px solid #c8a4d4;
+    border: 1px solid #D5B690;
     margin: 2px;
     padding: .25rem .75rem;
     display: inline-block;
     border-radius: 3px;
-    background-color: #795695;
+    background-color: #605F47;
 }
 .christmascountdown p:hover{
-    color: #6f930f;
-    border: 1px solid #c8a4d4;
+    color: #A2A16E;
+    border: 1px solid #D5B690;
 }
 .christmascountdown p:hover span{
-    border: 2px solid #c8a4d4;
+    border: 2px solid #D5B690;
 }
 @media (min-width: 1200px){
     .christmascountdown p{
@@ -318,7 +318,7 @@ footer div{
 }
 footer div:nth-child(2){
     justify-content: space-between;
-    border-top: .2rem solid #c8a4d4;
+    border-top: .2rem solid #D5B690;
     margin-top: .5rem;
 }
 .entersite footer{
@@ -339,7 +339,7 @@ a{
     text-decoration: none;
 }
 a:hover{
-    color: #6f930f;
+    color: #A2A16E;
 }
 footer div:nth-child(2) *{
     width: 33%;
@@ -454,7 +454,7 @@ figcaption span{
     }
 }
 .signup{
-    background-color: #795695;
+    background-color: #605F47;
     max-width: calc(100% - 7rem);
     width: 25rem;
     padding: 1.5rem;
@@ -497,11 +497,11 @@ figcaption span{
     font-size: 1rem;
 }
 .signup input, .signup select{
-    border: 1px solid #c8a4d4;
+    border: 1px solid #D5B690;
     margin: 2px;
     padding: .25rem .75rem;
     border-radius: 3px;
-    background-color: #795695;
+    background-color: #605F47;
     width: calc(100% - 1.85rem)
 }
 .signup input[type=submit]{
@@ -515,18 +515,18 @@ figcaption span{
     height: 1.75rem
 }
 .signup .whiteborder{
-    border: 2px solid #c8a4d4;
+    border: 2px solid #D5B690;
     padding: .1rem;
     display: block;
     border-radius: 3px;
-    background-color: #795695;
+    background-color: #605F47;
     color: #f3f4e7;
 }
 img{
     max-width: 100%;
 }
 .dates>div{
-    border: 2px solid #c8a4d4;
+    border: 2px solid #D5B690;
     border-radius: 3px;
     padding: .1rem;
     width: 100%;
@@ -534,12 +534,12 @@ img{
     justify-content: center;
 }
 .dates>div>span{
-    border: 1px solid #c8a4d4;
+    border: 1px solid #D5B690;
     margin: 2px;
     padding: .25rem .75rem;
     display: inline-block;
     border-radius: 3px;
-    background-color: #795695;
+    background-color: #605F47;
     display: grid;
     grid-template-columns: 2fr 5fr;
     align-items: center;
@@ -595,10 +595,10 @@ blockquote.tiktok-embed>iframe{
     margin-bottom: -2rem;
 }
 .youtubefeatures{
-    border: 2px solid #c8a4d4;
+    border: 2px solid #D5B690;
     padding: .1rem;
     border-radius: 3px;
-    background-color: #795695;
+    background-color: #605F47;
     color: #f3f4e7;
     width: 90%;
     position: relative;
@@ -609,19 +609,19 @@ blockquote.tiktok-embed>iframe{
     margin-top: .5rem;
 }
 .youtubefeatures>span{
-border: 1px solid #c8a4d4;
+border: 1px solid #D5B690;
 margin: 2px;
 display: block;
 padding: .25rem .75rem;
 border-radius: 3px;
-background-color: #795695;
+background-color: #605F47;
 }
 .youtubefeatures:hover{
-    border: 1px solid #c8a4d4; 
+    border: 1px solid #D5B690; 
 }
 .youtubefeatures:hover>span{
-    border: 2px solid #c8a4d4;
-    color: #6f930f;
+    border: 2px solid #D5B690;
+    color: #A2A16E;
 }
 .youtubefeatures video{
     width: 100%;
@@ -670,29 +670,29 @@ background-color: #795695;
     }
 }
 .songs a{
-    border: 2px solid #c8a4d4;
+    border: 2px solid #D5B690;
     padding: .1rem;
     border-radius: 3px;
-    background-color: #795695;
+    background-color: #605F47;
     color: #f3f4e7;
     width: 90%;
     position: relative;
     box-sizing: border-box;
 }
 .songs a>span{
-border: 1px solid #c8a4d4;
+border: 1px solid #D5B690;
 margin: 2px;
 display: block;
 padding: .25rem .75rem;
 border-radius: 3px;
-background-color: #795695;
+background-color: #605F47;
 }
 .songs a:hover{
-    border: 1px solid #c8a4d4; 
+    border: 1px solid #D5B690; 
 }
 .songs a:hover>span{
-    border: 2px solid #c8a4d4;
-    color: #6f930f;
+    border: 2px solid #D5B690;
+    color: #A2A16E;
 }
 .songs{
     display: flex;
@@ -745,34 +745,34 @@ background-color: #795695;
     height: 100%;
     top: 0;
     left: 0;
-    background: rgb(121,86,149);
-    background: linear-gradient(180deg, rgba(121,86,149,0.8393732492997199) 0%, rgba(121,86,149,0.16710434173669464) 35%, rgba(121,86,149,0) 100%);
+    background: rgb(96,95,71);
+    background: linear-gradient(180deg, rgba(96,95,71,0.8393732492997199) 0%, rgba(96,95,71,0.16710434173669464) 35%, rgba(96,95,71,0) 100%);
     z-index: -1;
 }
 .newsong a{
-    border: 2px solid #c8a4d4;
+    border: 2px solid #D5B690;
     padding: .1rem;
     border-radius: 3px;
-    background-color: #795695;
+    background-color: #605F47;
     color: #f3f4e7;
     width: 90%;
     position: relative;
     box-sizing: border-box;
 }
 .newsong a>span{
-border: 1px solid #c8a4d4;
+border: 1px solid #D5B690;
 margin: 2px;
 display: block;
 padding: .25rem .75rem;
 border-radius: 3px;
-background-color: #795695;
+background-color: #605F47;
 }
 .newsong a:hover{
-    border: 1px solid #c8a4d4; 
+    border: 1px solid #D5B690; 
 }
 .newsong a:hover>span{
-    border: 2px solid #c8a4d4;
-    color: #6f930f;
+    border: 2px solid #D5B690;
+    color: #A2A16E;
 }
 .newsong{
     display: flex;
