@@ -590,6 +590,13 @@ blockquote.tiktok-embed>iframe{
 .releases a:hover{
     color: #6f930f;
 }
+.shop{
+    margin-bottom: .5rem;
+    margin-top: 2rem;
+}
+.shop a:hover{
+    color: #6f930f;
+}
 .youtubevid{
     margin-top: 2rem;
     margin-bottom: -2rem;
@@ -816,6 +823,76 @@ background-color: #605F47;
 }
 @media (min-width: 1200px){
     .newsong a{
+        height: 27rem;
+    }
+}
+.merch a{
+    border: 2px solid #D5B690;
+    padding: .1rem;
+    border-radius: 3px;
+    background-color: #605F47;
+    color: #f3f4e7;
+    width: 90%;
+    position: relative;
+    box-sizing: border-box;
+}
+.merch a>span{
+border: 1px solid #D5B690;
+margin: 2px;
+display: block;
+padding: .25rem .75rem;
+border-radius: 3px;
+background-color: #605F47;
+}
+.merch a:hover{
+    border: 1px solid #D5B690; 
+}
+.merch a:hover>span{
+    border: 2px solid #D5B690;
+    color: #A2A16E;
+}
+.merch{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.merch img{
+    width: 100%;
+}
+@media (min-width: 600px){
+    .merch a{
+        width: 45%;
+        height: 28rem;
+    }
+    .merch a>span{
+        height: calc(100% - 14.25px);
+    }
+    .merch{
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}
+@media (min-width: 850px){
+    .merch a{
+        height: 32rem;
+    }
+}
+@media (min-width: 1000px){
+    .merch a{
+        width: 24%;
+        height: 23.5rem;
+    }
+    figcaption span{
+        position: absolute;
+        bottom: 0.25rem;
+        left: calc(50% - 57px);
+    }
+}
+@media (min-width: 1200px){
+    .merch a{
         height: 27rem;
     }
 }
